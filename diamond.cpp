@@ -3,11 +3,16 @@
 using namespace std;
 
 int main(){
-    for(int i=0; i<5; i++){
-        for(int j=0; j<5; j++){
+    int n;
+    cout<<"Masukkan nilai n : ";
+    cin>>n;
+    
+    for(int i=0; i<n; i++){
+        for(int j=0; j<n; j++){
             cout<<"*";
         }
         cout<<endl;
     }
+    
     return 0;
 }
