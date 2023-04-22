@@ -3,6 +3,7 @@
 using namespace std;
 
 int main(){
+    system("cls");
     int n;
     cout<<"Masukkan nilai n : ";
     cin>>n;
